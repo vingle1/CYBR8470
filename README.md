@@ -11,6 +11,7 @@
 The class materials are best viewed at [https://mlhale.github.io/CYBR8470/](https://mlhale.github.io/CYBR8470/)
 
 ## Online Discussion Area
+testing branching
 I have setup an online discussion board on slack.com for usage in this class. If you decide to work on a group project, I can create some private channels for you to work on, but I want to be able to participate in your conversations - so please use the space on slack.
 
 Go to [drhale8470.slack.com](https://drhale8470.slack.com) and use your unomaha email address to register an account. Alternatively, you can use [this link](https://join.slack.com/t/drhale8470/shared_invite/MjI5MTIzNzg1NjgyLTE1MDMyNTExNTUtZDFlY2NjZGZkOA).This will give you access to the class slack channel. The chat channel is for general discussions with me or your fellow classmates. The questions channel is for you to ask public questions that I will answer for the whole class. This is better than email if you think that the answer to your question might benefit everyone. You can also send me private messages. Generally I am faster at replying on slack than I am by email.
@@ -57,6 +58,12 @@ All classroom activities will take place in PKI room 260 unless otherwise noted 
   * Django REST Framework
   * Django in Docker
   * [Creating a new Web service](/modules/building-a-server/README.md)
+  * [Building API endpoint exercise](/modules/building-a-server/django-exercise.md)
+* Test-driven Development ([Lecture 4 slides](./slides/test-driven-development.pdf))
+  * Unit testing
+  * [Pen testing Lab](/modules/penetration-testing/README.md)
+  * Acceptance critera
+  * think-test-build-test-repeat
 * Client-side Development
   * Browser Object Model Overview
   * JQuery Overview
@@ -65,7 +72,6 @@ All classroom activities will take place in PKI room 260 unless otherwise noted 
   * Ember.js
   * Handlebars
   * AJAX for External API integration
-* Pen testing and Hardening
 * Step back and think about Software engineering Principles
   * Software Development Lifecycle
   * Requirements Engineering and Use/Misuse case review
@@ -74,10 +80,6 @@ All classroom activities will take place in PKI room 260 unless otherwise noted 
 * Configuration and hardening
   * Apache Hardening
   * [IP Tables and OS Hardening](modules/iptable-exercise.md)
-* Test-driven Development
-  * Unit testing
-  * Acceptance critera
-  * think-test-build-test-repeat
 * Time to be creative
   * Come up with your own project idea or implement something for a friend/family member or community organization
   * [Project 1](#projects): Requirements Engineering, Product Design, Architecture, and Client-side Prototype
