@@ -1,11 +1,11 @@
 ### Table of contents
-[Online discussion area](#online-discussion-area)  
-[Location](#location)  
-[Supplies](#supplies)  
-[Projects](#projects)  
-[Class topics](#class-topics)  
-[Syllabus](#syllabus)  
-[License](#license)  
+[Online discussion area](#online-discussion-area)
+[Location](#location)
+[Supplies](#supplies)
+[Projects](#projects)
+[Class topics](#class-topics)
+[Syllabus](#syllabus)
+[License](#license)
 
 ## Viewing these materials
 The class materials are best viewed at [https://mlhale.github.io/CYBR8470/](https://mlhale.github.io/CYBR8470/)
@@ -64,7 +64,7 @@ All classroom activities will take place in PKI room 260 unless otherwise noted 
   * Acceptance critera
   * think-test-build-test-repeat
 * Client-side Development
-  * Browser Object Model Overview ([Lecture 5 Slides](/slides/intro-to-clientside-lecture.pdf))
+  * Browser Object Model Overview ([Lecture 5 Slides](/slides/intro-to-clientside-lecture.pdf))([Lecture 6 Slides](/slides/lecture6/index.html))
   * JQuery Overview
   * [MIT jQuery Lab](http://web.mit.edu/6.813/www/sp16/labs/lab2-javascript-jquery/)
   * [Optional Codeacademy HTML/CSS Labs](https://www.codecademy.com/tracks/web)
@@ -74,29 +74,20 @@ All classroom activities will take place in PKI room 260 unless otherwise noted 
   * Asynchronicity is your friend
   * Model View Controller
   * Ember.js
+  * [Ember.js lab](https://guides.emberjs.com/v2.16.0/tutorial/ember-cli/)
   * Handlebars
   * AJAX for External API integration
-* Step back and think about Software engineering Principles
-  * Software Development Lifecycle
-  * Requirements Engineering and Use/Misuse case review
-  * Software Architecting
-  * Integration patterns between Servers and Clients
-* Configuration and hardening
-  * Apache Hardening
-  * [IP Tables and OS Hardening](modules/iptable-exercise.md)
+* Software Architecture
 * Time to be creative
   * Come up with your own project idea or implement something for a friend/family member or community organization
-  * [Project 1](#projects): Requirements Engineering, Product Design, Architecture, and Client-side Prototype
-  * [Project 2](#projects): Server-side API Creation and Client-side Integration
-
-## Projects
-[Project 1 rubric](/modules/IA8470-project-1-rubric.pdf) - Creating and securing a prototype application
-Project 1 will use the skills you learned in the Labs and have you create some software engineering documents to help you flesh out an idea and implement the client-side portion of the idea that will use for the rest of the semester. For this, and the rest of the projects in the course, you will be able to use your own project idea. You will be expected to satisfy the following rubrics. See the [rubric](/modules/IA8470-project-1-rubric.pdf) for specific details.
-
-[Project 2 rubric](/modules/IA8470-project-2-rubric.pdf) - Server-side API creation and Client-side Integration
-Project 2 continues the web development and design initiated in Project 1. You will create a Django REST API for servicing CRUD (create, read, update, delete) requests coming from your clientside ember app. Project 2 also offers you the first real opportunity to start realizing core security functionality. You will deploy your REST API on an Apache server and harden it against various forms of attack. Among other things you will harden your API by adding validators for each create or update operation and ensure that there are no side-effects from your methods. Additionally, you will update your design documents to reflect your server-side changes. See the [rubric](/modules/IA8470-project-2-rubric.pdf) for specific details.
-
-[Final Assignment rubric](/modules/final-project-rubric.pdf) - This last assignment tasks you with assessing your partner's install guide, user guide, and application. See the [rubric](/modules/final-project-rubric.pdf) for specific details.
+  * [Project Milestone 1](/projects/project1.md) - Product Ideation, Design, Mockup, and Prototype
+* Configuration and hardening
+  * Deployment
+  * Hardening
+  * [IP Tables and OS Hardening](modules/iptable-exercise.md)
+* Finishing up
+  * Project Milestone 2 - TBA
+  * Class-wide Final Project - TBA
 
 ## 2016 Archived Lab content
 [secwebdev.mlhale.com](http://secwebdev.mlhale.com)
@@ -112,25 +103,27 @@ Project 2 continues the web development and design initiated in Project 1. You w
 * DNelson ([Waze Place Discovery and Audit](https://github.com/DaJoNel/wpda))
 
 ## Syllabus
-**Date/Time**: Tuesday 5:30pm – 8:10pm  
-**Instructor**:  Dr. Hale  
-**Office**:  PKI 174-D, `(402) 554-3978`  
-**Office Hours**:  Open door policy, or by appointment  
-**E-mail**:  `mlhale@unomaha.edu`  
+**Date/Time**: Tuesday 5:30pm – 8:10pm
+**Instructor**:  Dr. Hale
+**Office**:  PKI 174-D, `(402) 554-3978`
+**Office Hours**:  Open door policy, or by appointment
+**E-mail**:  `mlhale@unomaha.edu`
 
 
 ### Course Abstract
 Web applications are pervasive fixtures of 21st century culture. Web application security is an inclusive, amorphous, term that spans application level security, i.e. ensuring high level code cannot be exploited, server level security, i.e. ensuring server resources such as databases and file systems cannot be exploited, and network security, i.e. ensuring unauthorized parties cannot access a server or tamper with user sessions. The Secure Web Application Development course will mix traditional lecture with hands-on labs to expose students to common web development activities and cross-cut different web application security concepts. After the class, students will be proficient with web application security from the ground up, including the ability to securely deploy and configure a web server (e.g. apache or node.js), select and install a web development framework to best suit application and security requirements (e.g. Django, Ember, or both), and develop secure application architectures and code using at least one web framework. Students will also leave with a basic understanding of core web protocols including TCP/IP, SSL, and HTTP/HTTPs, web development tools (e.g. chrome dev toolkit), unit testing (e.g. QUnit), and best practices for accepting, parsing, and storing user input.
 
-### Grading Breakdown (due dates are tentative)
- * (25%) Labs
-  * Twitter REST API (Lab 1 - no rubric)
-  * Containers (Lab 2 - no rubric)
-  * Building a Server (Lab 3 - no rubric)
-  * Penetration Testing (Lab 4 - no rubric)
- * (20%) Project 1 - Product Design and Mockup
- * (20%) Project 2 - Implementation and Documentation
- * (25%) Project 3 - Polish and Final Delivery
+### Grading Breakdown
+ * (30%) Labs
+   - Twitter REST API (Lab 1 - no rubric)
+   - Containers (Lab 2 - no rubric)
+   - Building a Server (Lab 3 - no rubric)
+   - Penetration Testing (Lab 4 - no rubric)
+   - Javascript (Lab 5 - no rubric)
+   - Ember (Lab 6 - no rubric)
+ * (15%) Project Milestone 1 - Product Ideation, Design, Mockup, and Prototype
+ * (25%) Project Milestone 2 - Implementation and Documentation
+ * (20%) Class Wide Community Service Project
  * (10%) Class Participation
 
 Each project will have a specific grading rubric that includes the core requirements for the project (i.e. what the application must do), any required intermediate milestone goals (such as short progress meetings with the instructor), the project due date, and the list of items that must be submitted. Each project will include a presentation component to be presented in class on the project due date. Projects build upon each other. The final Project is considered to be comprehensive. This means that *there is no final exam*. Final Project presentations will be presented on the day of the Final (December 14th during normal class time).
@@ -168,12 +161,12 @@ The instructor may retain a copy of your exams (with names and any other identif
 
 In addition, the instructor retains the right to use any code or project artifacts developed in the course for pedagogy, research, or service learning purposes. Student web project code developed in the course may be used in future secure project development courses, by the instructor for research purposes, or by designated stakeholders.
 
-## License  
+## License
 Secure Web App Development
 Copyright (C) 2016  Dr. Matthew L. Hale
 
 ### Lesson content
-Copyright (C) [Dr. Matthew Hale](http://faculty.ist.unomaha.edu/mhale/) 2017.  
+Copyright (C) [Dr. Matthew Hale](http://faculty.ist.unomaha.edu/mhale/) 2017.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This lesson</span> is licensed by the author under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
